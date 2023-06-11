@@ -1,0 +1,9 @@
+ask how much was given
+ask how much was spent on transport
+ask how much was spent on meals 
+ask how much was spent on accomodation
+give total expenditure
+give balance by subtracting total expenditure from funds given
+if + figure print there was a balance
+if - figure print there was a deficit
+if 0 print there was no balance
