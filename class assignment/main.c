@@ -13,7 +13,7 @@ int main() {
 	if(study_year == 1){
 		printf("Great!! Your year is eligible for the project\nplease enter your alevel results:");
 		scanf("%d", &points_scored);
-		if(points_scored > 10){
+		if(points_scored > 10 && points_scored < 21){
 			printf("You have the points required to be considered for the project");
 		}else{
 			printf("Sorry,,you dont have the required points\nYou are not eligible for the project");
